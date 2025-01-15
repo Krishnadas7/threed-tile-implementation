@@ -12,6 +12,7 @@ function Sidebar({ onSelect }: SidebarProps) {
     { id: 3, label: 'Item 3', content: 'Content for Item 3' },
   ];
 
+  
   return (
     <div className="bg-[#283655] fixed left-0 mt-20 w-72 h-full text-white p-4">
       <h2 className="text-xl font-bold mb-4">Sidebar</h2>
